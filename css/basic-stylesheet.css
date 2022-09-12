@@ -1,15 +1,67 @@
-@media screen and (min-width:576px) {
-/*.main-header {*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    font-weight: bold;*/
-/*    font-size: large;*/
+/*.block{*/
+/*    border: 1px solid red;*/
+/*    text-align: center;*/
+/*    vertical-align: middle;*/
 /*}*/
 
-
+/** {*/
+/*    font-family: 'Abel', sans-serif;*/
+/*}*/
+body {
+    background-color: lightgray;
+}
+h1 {
+    font-family: Anton-Regular, sans-serif,
 }
 
+.red {
+    background-color: #e6563b;
+}
+.green {
+    background-color: #7CB06C;
+}
+.yellow {
+    background-color: #EB9D3A;
+}
+.cyan {
+    background-color: #00ABA9;
+}
+.light-gray {
+    background-color: #F0F0F0;
+}
+.grey {
+    background-color: #E6E6E6;
+}
+.circle{
+    /*background: #e6563b;*/
+    border-radius: 100%;
+    color: white;
+    height: 105px;
+    font-weight: bold;
+    width: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Abel', sans-serif;
+    border:5px solid white;
+}
+.icon{
+    /*background: #e6563b;*/
+    border-radius: 200px;
+    color: white;
+    height: 18px;
+    font-weight: bold;
+    width: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Abel', sans-serif;
+}
 
+@media screen and (max-width:576px) {
+.nav-item {
+    display: none;
+}
 
 
 @media screen and (min-width:768px) { /* m */
