@@ -11,9 +11,15 @@ body {
     font-family: 'Anton', sans-serif;
     size: 4.2rem;
 }
+<<<<<<< HEAD
+/*h1 {*/
+/*    font-family: Anton-Regular, sans-serif,*/
+/*}*/
+=======
 .navbar {
     background-color: rgb(241,240,240);
 }
+>>>>>>> 5bec8d5045ffa7b5ec5ffd44da520b96093b7358
 
 .red {
     background-color: #e6563b;
@@ -66,9 +72,12 @@ body {
     .nav-item {
         display: none;
     }
+<<<<<<< HEAD
+=======
     .header {
         justify-content: center;
     }
+>>>>>>> 5bec8d5045ffa7b5ec5ffd44da520b96093b7358
 }
 
 @media screen and (min-width:768px) { /* m */
