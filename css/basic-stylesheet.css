@@ -1,17 +1,18 @@
-/*.block{*/
-/*    border: 1px solid red;*/
-/*    text-align: center;*/
-/*    vertical-align: middle;*/
-/*}*/
-
-/** {*/
-/*    font-family: 'Abel', sans-serif;*/
-/*}*/
-body {
-    background-color: lightgray;
+.block{
+    border: 1px solid red;
+    text-align: center;
+    vertical-align: middle;
 }
-h1 {
-    font-family: Anton-Regular, sans-serif,
+
+body {
+    background-color: rgb(241,240,240);
+}
+.header {
+    font-family: 'Anton', sans-serif;
+    size: 4.2rem;
+}
+.navbar {
+    background-color: rgb(241,240,240);
 }
 
 .red {
@@ -48,7 +49,7 @@ h1 {
 .icon{
     /*background: #e6563b;*/
     border-radius: 200px;
-    color: white;
+    color: black;
     height: 18px;
     font-weight: bold;
     width: 18px;
@@ -57,12 +58,18 @@ h1 {
     justify-content: center;
     font-family: 'Abel', sans-serif;
 }
+/*.apple {*/
+/*    border: 1px solid rgb(230,230,230);*/
+/*}*/
 
 @media screen and (max-width:576px) {
-.nav-item {
-    display: none;
+    .nav-item {
+        display: none;
+    }
+    .header {
+        justify-content: center;
+    }
 }
-
 
 @media screen and (min-width:768px) { /* m */
 
