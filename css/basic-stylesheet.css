@@ -10,9 +10,9 @@
 body {
     background-color: lightgray;
 }
-h1 {
-    font-family: Anton-Regular, sans-serif,
-}
+/*h1 {*/
+/*    font-family: Anton-Regular, sans-serif,*/
+/*}*/
 
 .red {
     background-color: #e6563b;
@@ -59,8 +59,9 @@ h1 {
 }
 
 @media screen and (max-width:576px) {
-.nav-item {
-    display: none;
+    .nav-item {
+        display: none;
+    }
 }
 
 
