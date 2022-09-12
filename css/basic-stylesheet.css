@@ -1,18 +1,25 @@
-/*.block{*/
-/*    border: 1px solid red;*/
-/*    text-align: center;*/
-/*    vertical-align: middle;*/
-/*}*/
-
-/** {*/
-/*    font-family: 'Abel', sans-serif;*/
-/*}*/
-body {
-    background-color: lightgray;
+.block{
+    border: 1px solid red;
+    text-align: center;
+    vertical-align: middle;
 }
+
+body {
+    background-color: rgb(241,240,240);
+}
+.header {
+    font-family: 'Anton', sans-serif;
+    size: 4.2rem;
+}
+<<<<<<< HEAD
 /*h1 {*/
 /*    font-family: Anton-Regular, sans-serif,*/
 /*}*/
+=======
+.navbar {
+    background-color: rgb(241,240,240);
+}
+>>>>>>> 5bec8d5045ffa7b5ec5ffd44da520b96093b7358
 
 .red {
     background-color: #e6563b;
@@ -48,7 +55,7 @@ body {
 .icon{
     /*background: #e6563b;*/
     border-radius: 200px;
-    color: white;
+    color: black;
     height: 18px;
     font-weight: bold;
     width: 18px;
@@ -57,13 +64,21 @@ body {
     justify-content: center;
     font-family: 'Abel', sans-serif;
 }
+/*.apple {*/
+/*    border: 1px solid rgb(230,230,230);*/
+/*}*/
 
 @media screen and (max-width:576px) {
     .nav-item {
         display: none;
     }
+<<<<<<< HEAD
+=======
+    .header {
+        justify-content: center;
+    }
+>>>>>>> 5bec8d5045ffa7b5ec5ffd44da520b96093b7358
 }
-
 
 @media screen and (min-width:768px) { /* m */
 
