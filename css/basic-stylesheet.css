@@ -1,4 +1,9 @@
 
+.image {
+    position: absolute;
+    object-fit: cover;
+}
+
 body {
     background-color: rgb(241,240,240);
 }
@@ -63,81 +68,79 @@ body {
 .marg {
     margin: 3px;
 }
-@media screen and (min-width:576px) {
-    .nav-item {
-        display: none;
-    }
-
-    .header {
-        justify-content: center;
-    }
-
-}
-
 /* Small devices (phones and pocket devices, 576 and up) */
-@media screen and (min-width:576px) {
-    body {
-        background-color: orange;
-    }
+@media screen and (max-width: 576px) {
+    /*body {*/
+    /*    background-color: orange;*/
+    /*}*/
     .para {
         visibility: hidden;
     }
     #bluephone {
-        visibility: hidden;
-    }
-    #last {
-        visibility: hidden;
+        display: none;
     }
     #allCirc {
         margin-left: 221px;
-        width: 310px;
+        width: 540px;
+    }
+    #last {
+        visibility: hidden;
+    }
+    .wrapper > img {
+        width: 500px;
     }
 }
-
 /* Medium devices (tablets, 768px and up) */
-@media screen and (min-width:768px) {
-    body {
-        background-color: red
-    }
+@media screen and (min-width: 768px) {
+    /*body {*/
+    /*    background-color: red*/
+    /*}*/
     .para {
         visibility: hidden;
     }
     #bluephone {
-        visibility: hidden;
+        display: none;
     }
-    #last {
-        visibility: hidden;
+    .last {
+        visibility: hidden;;
+    }
+    .lastTweet {
+        display: none;
     }
     #firstrow {
         height: 264px;
     }
-    #allCirc {
-        margin: 0 89px;
-        width: 1296px;
-        height: 169px;
+    #fourCirc  {
+        justify-content: space-between;
     }
 }
-
 /* Large devices (desktops, 992px and up) */
-@media screen and (min-width:992px) {
-    body {
-        background-color: blue;
-    }
+@media screen and (min-width: 992px) {
     #bluephone {
         visibility: visible;
     }
     .para {
         visibility: visible;
     }
-    #allCirc {
-        margin: 0 89px;
-        width: 1296px;
-        height: 169px;
+    #bluephone {
+        margin-left: 100px;
+        margin-bottom: 80px;
+    }
+    .last {
+        visibility: visible;
+    }
+    #firstRow {
+        height: 350px;
+    }
+    .lastTweet {
+        display: revert;
+    }
+    #bluephone {
+        display: revert;
     }
 }
-
 /* Extra large devices (large desktops, 1200px and up) */
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
     #bluephone {
         visibility: visible;
     }
