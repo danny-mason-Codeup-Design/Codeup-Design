@@ -70,9 +70,9 @@ body {
 }
 /* Small devices (phones and pocket devices, 576 and up) */
 @media screen and (max-width: 576px) {
-    /*body {*/
-    /*    background-color: orange;*/
-    /*}*/
+    body {
+        background-color: orange;
+    }
     .para {
         visibility: hidden;
     }
@@ -92,9 +92,9 @@ body {
 }
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
-    /*body {*/
-    /*    background-color: red*/
-    /*}*/
+    body {
+        background-color: red
+    }
     .para {
         visibility: hidden;
     }
@@ -116,6 +116,9 @@ body {
 }
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+    body {
+        background-color: blue;
+    }
     #bluephone {
         visibility: visible;
     }
