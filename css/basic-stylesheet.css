@@ -83,7 +83,7 @@ body {
         margin-left: 221px;
         width: 540px;
     }
-    #last {
+    .last {
         visibility: hidden;
     }
     .wrapper > img {
